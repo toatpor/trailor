@@ -229,6 +229,6 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
-
+connection.py
 # End of https://www.toptal.com/developers/gitignore/api/python
 # rd /s /q .git remove git
