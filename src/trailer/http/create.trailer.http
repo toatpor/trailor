@@ -1,0 +1,10 @@
+
+POST http://localhost:3000/trailer  
+Content-Type : application/json
+accept: application/json
+{
+    "registration": "outsource_ta",
+    "actExpire": "2025-06-30T00:00:00Z"
+}
+
+

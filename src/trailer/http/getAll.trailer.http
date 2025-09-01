@@ -1,0 +1,6 @@
+GET http://localhost:3000/trailer
+Content-Type: application/json
+Accept: application/json
+{
+    
+}

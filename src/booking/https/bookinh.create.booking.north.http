@@ -1,0 +1,25 @@
+POST http://localhost:3000/booking/create-booking-north
+Content-Type : application/json
+Accept: application/json
+{
+ 
+// วันที่เท่าไร ขี้เกลียดแก้
+"departureDate": "2025-09-10T07:00:00Z",
+// ถึงวันที่เท่าไร
+"arriveDate": "2025-09-30T00:00:00Z",
+"status": "pending",
+"from" : "central",
+"to" : "north",
+"trailer" : "2",
+"province": [1,2,3,4,5,6,7,8,9,10,11,12]
+
+
+}
+
+
+// 2 เพชร  อังคาร ศุกร์   | 3 เบิร์ด พุธ เสาร์ trailer
+// chiangmai
+// [1,2,3,4,5,6,7,8,9,10,11,12]
+
+// chiangrai
+// [1,2,3,4,5,6,13,14,15,16,17,18,19]

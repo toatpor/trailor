@@ -1,0 +1,7 @@
+PATCH http://localhost:3000/trailer/2
+Content-Type: application/json
+Accept: application/json
+
+{
+    "actExpire": "2025-06-30T00:00:00Z"
+}

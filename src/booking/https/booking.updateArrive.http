@@ -1,0 +1,7 @@
+PATCH http://localhost:3000/booking/updateArrived
+Content-Type: application/json
+Accept: application/json
+
+
+{
+}

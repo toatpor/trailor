@@ -1,0 +1,8 @@
+PATCH http://localhost:3000/booking/status/1
+Content-Type: application/json
+Accept: application/json
+
+
+{
+    "status": "depart"
+}

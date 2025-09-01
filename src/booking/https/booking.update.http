@@ -1,0 +1,30 @@
+PATCH http://localhost:3000/booking/28
+Content-Type: application/json
+Accept: application/json 
+
+
+{
+// "departureDate": "2025-08-29T00:07:00Z",
+// "arriveDate": "2025-08-30T00:07:00Z"
+// "status": "pending",
+// "from" : "central",
+// "to" : "south"
+"deposit": "3000"
+// "trailer" : "1",
+// "province": [1,20,21,22,23,24,25,26,27,28,45,46,47]
+
+}
+
+// import { eachDayOfInterval, getDay } from 'date-fns';
+
+// const startDate = new Date(2025, 0, 1); // January 1, 2025
+// const endDate = new Date(2025, 0, 31); // January 31, 2025
+
+// const allDaysInInterval = eachDayOfInterval({ start: startDate, end: endDate });
+
+// const tuesdaysAndFridays = allDaysInInterval.filter(date => {
+//   const dayOfWeek = getDay(date);
+//   return dayOfWeek === 2 || dayOfWeek === 5; // 2 for Tuesday, 5 for Friday
+// });
+
+// console.log(tuesdaysAndFridays);

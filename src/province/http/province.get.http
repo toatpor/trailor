@@ -1,0 +1,7 @@
+GET http://localhost:3000/province
+Content-Type: application/json
+Accept: application/json 
+
+{
+
+}

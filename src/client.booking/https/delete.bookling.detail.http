@@ -1,0 +1,7 @@
+DELETE http://localhost:3000/detail/38
+Content-Type: application/json
+Accept: application/json 
+
+{
+ 
+}

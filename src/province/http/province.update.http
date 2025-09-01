@@ -1,0 +1,7 @@
+PATCH http://localhost:3000/province/2
+Content-Type: application/json
+Accept: application/json 
+
+{
+    "province": "bangkok"
+}

@@ -1,0 +1,9 @@
+PATCH http://localhost:3000/detail/73
+Content-Type: application/json
+Accept: application/json 
+{
+   // "drop": "chiangmai",
+   // "booking": "38"
+   // "pick": "nakhonpathom",
+   // "remark": "ลูกค้ามาส่งรถ 08:30"
+}

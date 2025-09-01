@@ -1,0 +1,5 @@
+GET http://localhost:3000/detail
+Content-Type: application/json
+Accept: application/json 
+
+{}

@@ -1,0 +1,6 @@
+
+DELETE http://localhost:3000/vehicle/deleteVehicle/3
+Content-Type: application/json
+{
+
+}

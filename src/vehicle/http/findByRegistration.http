@@ -1,0 +1,4 @@
+GET http://localhost:3000/vehicle/?234กด33
+Content-Type : application/json
+
+{}

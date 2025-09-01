@@ -1,0 +1,7 @@
+POST http://localhost:3000/region 
+Content-Type: application/json
+Accept: application/json
+
+{
+    "region": "chiangmai"
+}

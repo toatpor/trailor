@@ -1,0 +1,30 @@
+POST http://localhost:3000/detail
+Content-Type: application/json
+Accept: application/json 
+
+{
+    "brand": "honda",
+    "model": "city",
+    "registration": "4ขท4249",
+    "name":"พัชรี",
+    "lastName": "วงษ์บุญ",
+    "tel": "0615354924",
+    "sex": "female",
+    "pick": "bangkok",
+    "drop": "phuket",
+    "booking": "39"
+    // "remark": "รอคอนเฟิร์มวันขึ้นรถ 12, 13 ลูกค้าต้องการให้รถอยู่ด้านล่าง"
+    // "isbig": true,
+    // "transit": true
+}
+
+
+
+    // ab7
+    // "name":"dummy",
+    // "lastName": "dummy",
+    // "tel": "0982030809",
+
+    // "name":"บัง",
+    // "lastName": "ซาฟารี",
+    // "tel": "0817665074",

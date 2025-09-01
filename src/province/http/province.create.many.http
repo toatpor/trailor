@@ -1,0 +1,9 @@
+POST http://localhost:3000/province/many
+Content-Type: application/json
+Accept: application/json 
+
+{
+    "province": [
+     "samutprakan","chonburi","rayong","trat","chanthaburi","chachoengsao","prachinburi","sakaeo"
+    ]
+}

@@ -1,0 +1,8 @@
+
+POST http://localhost:3000/vehicle/createVehicle
+Content-Type: application/json
+{
+   "brand": "kia",
+   "registration": "ฮอ6008",
+   "owner": 19
+}

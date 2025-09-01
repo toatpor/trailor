@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  postgres:
+    container_name: postgres_container
+    image: postgres
+    restart: always
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_USER=tailor
+      - POSTGRES_DB=DBTailor
+      - POSTGRES_PASSWORD=OTvm6ewxujQCJYa1oNMJOVXp9oMQymwo
+    volumes:
+      - ./docker-volumes/postgres:/var/lib/postgresql
