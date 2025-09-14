@@ -2,7 +2,12 @@
 POST http://localhost:3000/vehicle/createVehicle
 Content-Type: application/json
 {
-   "brand": "kia",
-   "registration": "ฮอ6008",
-   "owner": 19
+   "brand": "subaru",
+   // "model": "",
+   "registration": "กก5555",
+   // พี่อุ๊ 83 พี่ดุล 80 พี่พร 84
+   "owner": 83
 }
+
+
+

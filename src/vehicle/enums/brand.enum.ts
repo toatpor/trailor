@@ -22,4 +22,6 @@ export enum brandCarEnum {
   volvo = 'volvo',
   neta = 'neta',
   landrover = 'landrover',
+  dummy = 'dummy',
+  subaru = 'subaru',
 }

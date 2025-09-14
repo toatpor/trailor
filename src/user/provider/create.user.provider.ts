@@ -18,9 +18,9 @@ export class CreateUserProvider {
   public async createUser(createUserDto: CreateUserDto) {
     const existUser = await this.userRepository.findOne({
       where: {
-        name: createUserDto.name,
+        // name: createUserDto.name,
         tel: createUserDto.tel,
-        lastName: createUserDto.lastName,
+        // lastName: createUserDto.lastName,
       },
     });
 
@@ -33,13 +33,15 @@ export class CreateUserProvider {
       name: createUserDto.name,
       lastName: createUserDto.lastName,
       tel: createUserDto.tel,
-      age: new Date().getFullYear() - createUserDto.age,
+      age: createUserDto.age
+        ? new Date().getFullYear() - createUserDto.age
+        : 18,
       sex: createUserDto.sex,
     });
 
     try {
       await this.userRepository.save(data);
-    } catch {
+    } catch (_error) {
       throw new RequestTimeoutException(
         'Unable to process your request at this moment',
         { description: 'Error connect to server' },

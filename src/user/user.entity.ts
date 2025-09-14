@@ -53,7 +53,8 @@ export class UserEntity {
   @Column({
     type: 'int2',
     nullable: false,
-    width: 3,
+    width: 4,
+    default: 18,
   })
   age: number;
 

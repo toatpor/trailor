@@ -24,14 +24,17 @@ export class CreateBookingDetailProvider {
     await queryRunner.startTransaction();
 
     user = await queryRunner.manager.findOne(UserEntity, {
-      where: { tel: clientBookingDto.tel, name: clientBookingDto.name },
+      where: { tel: clientBookingDto.tel },
     });
 
     if (!user) {
       user = queryRunner.manager.create(UserEntity, {
         name: clientBookingDto.name,
         lastName: clientBookingDto.lastName,
-        age: new Date().getFullYear() - clientBookingDto.age,
+        age:
+          new Date().getFullYear() - clientBookingDto.age == 18
+            ? 18
+            : new Date().getFullYear() - clientBookingDto.age,
         sex: clientBookingDto.sex,
         tel: clientBookingDto.tel,
       });

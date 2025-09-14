@@ -1,8 +1,9 @@
 POST http://localhost:3000/user/createCustomer
 Content-Type: application/json
 {
-    "name":"มนัสนันท์",
-    "lastName": "คอนเนลลี่",
+    "name":"สนอง",
+    "lastName": "หอมเนตร์",
     "tel": "0909717143",
-    "sex": "female"
+    "sex": "male",
+    "age": 1958
 }

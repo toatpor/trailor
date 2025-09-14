@@ -35,6 +35,7 @@ export enum DestinationEnum {
   phangnga = 'phangnga',
   samutsakhon = 'samutsakhon',
   nakhonpathom = 'nakhonpathom',
+  ratchaburi = 'ratchaburi',
 
   // isarn
   saraburi = 'saraburi',

@@ -40,5 +40,6 @@ export class CreateUserDto {
   @IsNumber()
   @IsInt()
   @NotGreater()
-  age: number = 2007;
+  @IsOptional()
+  age: number = new Date().getFullYear() - 18;
 }

@@ -26,7 +26,9 @@ export class UpdateUserProvider {
     user.lastName = updateUserDto?.lastName ?? user.lastName;
     user.sex = updateUserDto?.sex ?? user.sex;
     user.tel = updateUserDto?.tel ?? user.tel;
-    user.age = new Date().getFullYear() - updateUserDto?.age || user.age;
+    user.age = updateUserDto?.age
+      ? new Date().getFullYear() - updateUserDto?.age
+      : user.age;
 
     try {
       await this.userRepository.save(user);

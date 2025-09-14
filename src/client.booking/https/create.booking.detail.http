@@ -3,24 +3,25 @@ Content-Type: application/json
 Accept: application/json 
 
 {
-    "brand": "honda",
-    "model": "city",
-    "registration": "4ขท4249",
-    "name":"พัชรี",
-    "lastName": "วงษ์บุญ",
-    "tel": "0615354924",
-    "sex": "female",
+     "brand": "chevrolet",
+    "model": "zafiira",
+    "registration": "ขข4202",
+    "name": "คุณ",
+    "lastName": "ปอนด์",
+    "tel": "0849309353",
+    "sex": "male",
     "pick": "bangkok",
-    "drop": "phuket",
-    "booking": "39"
-    // "remark": "รอคอนเฟิร์มวันขึ้นรถ 12, 13 ลูกค้าต้องการให้รถอยู่ด้านล่าง"
+    "drop": "surat",
+    "booking": "4",
+    // "age": 2007
+    "remark": "https://maps.app.goo.gl/JqHacyM98k3Z97fD6?g_st=ipc สไลด์มาบ้านวันที่ 15/9, ส่งที่เลยกองบิน 7 แต่ไม่ถึง กม18"
     // "isbig": true,
     // "transit": true
 }
 
 
 
-    // ab7
+    // ab7  
     // "name":"dummy",
     // "lastName": "dummy",
     // "tel": "0982030809",
@@ -28,3 +29,24 @@ Accept: application/json
     // "name":"บัง",
     // "lastName": "ซาฟารี",
     // "tel": "0817665074",
+
+    //  ราคา 4000 หาดใหญ่
+    // "name":"พี่",
+    // "lastName": "ดุล",
+    // "tel": "0935426693",
+
+
+    //  ราคา 3800 รถตู้ 6000 ภูเก็ต
+    // "name": "พี่",
+    // "lastName": "อุ๊",
+    // "tel": "0842645324",
+
+    //  ราคา 3000 
+    // "name": "พี่",
+    // "lastName": "พร",
+    // "tel": "0645546361",
+
+
+    // "name": "พี่",
+    // "lastName": "ต้า",
+    // "tel": "0955765595",
