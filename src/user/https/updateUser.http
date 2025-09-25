@@ -1,10 +1,10 @@
-PATCH http://localhost:3000/user/updateCustomer/88
+PATCH http://localhost:3000/user/updateCustomer/133
 Content-Type: application/json
 {
-//  "name": "ธนกฤต"
-//  "lastName": "ชัยจิต",
-//  "tel": "0861232742"
-//  "sex" : "female"
-"age": 1988
+//  "name": "สุริยนตร์",
+//  "lastName": "คนหมัน",
+//  "tel": "0934624745"
+//  "sex" : "male"
+"age": 1976
 }
     

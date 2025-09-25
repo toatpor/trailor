@@ -3,32 +3,33 @@ Content-Type: application/json
 Accept: application/json 
 
 {
-     "brand": "chevrolet",
-    "model": "zafiira",
-    "registration": "ขข4202",
-    "name": "คุณ",
-    "lastName": "ปอนด์",
-    "tel": "0849309353",
+     "brand": "mazda",
+    "model": "cx3",
+    "registration": "6กล4640",
+    "name": "owner",
+    "lastName": "owner",
+    "tel": "0872555566",
+    // "age": 1990,
     "sex": "male",
-    "pick": "bangkok",
-    "drop": "surat",
-    "booking": "4",
-    // "age": 2007
-    "remark": "https://maps.app.goo.gl/JqHacyM98k3Z97fD6?g_st=ipc สไลด์มาบ้านวันที่ 15/9, ส่งที่เลยกองบิน 7 แต่ไม่ถึง กม18"
+    "pick": "phuket",
+    // last destination
+    "drop": "bangkok",
+    "booking": "46"
+    // "remark": "ยอดค้างชำระ 4900, ผู้ส่ง ระพรรณ 0945599592"
     // "isbig": true,
     // "transit": true
 }
 
 
 
-    // ab7  
+    // ab7    
     // "name":"dummy",
     // "lastName": "dummy",
     // "tel": "0982030809",
 
-    // "name":"บัง",
-    // "lastName": "ซาฟารี",
-    // "tel": "0817665074",
+    // "name": "owner",
+    // "lastName": "owner",
+    // "tel": "0872555566",
 
     //  ราคา 4000 หาดใหญ่
     // "name":"พี่",
@@ -50,3 +51,10 @@ Accept: application/json
     // "name": "พี่",
     // "lastName": "ต้า",
     // "tel": "0955765595",
+
+    // ราคา 3500
+    // "name":"บัง",
+    // "lastName": "ซาฟารี",
+    // "tel": "0817665074",
+
+    

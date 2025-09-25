@@ -4,8 +4,8 @@ Accept : application/json
 
 
 {
-"departureDate": "2025-10-05T00:00:00Z",
-"arriveDate": "2025-10-07T00:00:00Z",
+"departureDate": "2025-10-26T00:00:00Z",
+"arriveDate": "2025-10-28T00:00:00Z",
 "status": "pending",
 "from" : "south",
 "to" : "central",

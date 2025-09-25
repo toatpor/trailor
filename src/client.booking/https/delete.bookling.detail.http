@@ -1,4 +1,4 @@
-DELETE http://localhost:3000/detail/85
+DELETE http://localhost:3000/detail/109
 Content-Type: application/json
 Accept: application/json 
 

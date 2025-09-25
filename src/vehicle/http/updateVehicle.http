@@ -1,10 +1,10 @@
 
-PATCH http://localhost:3000/vehicle/updateVehicle/36
+PATCH http://localhost:3000/vehicle/updateVehicle/37
 Content-Type: application/json
 {
     // "brand": "toyota",
-//    "registration": "บม8780"
+//    "registration": "4ขจ6639"
 //    "owner": 73
-"model": "zafira"
+"model": "e200"
 }
 

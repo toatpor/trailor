@@ -1,9 +1,9 @@
-PATCH http://localhost:3000/detail/80
+PATCH http://localhost:3000/detail/89
 Content-Type: application/json
 Accept: application/json 
 {
-   // "booking": "40"
-   // "drop": "bangkok",
-   // "pick": "hatyai"
-   "remark": "ส่งตรงข้ามสนามบินนครศรี *รถถึงแยกไชยาให้ติดต่อ คุณปอนด์ "
+   // "booking": "43"
+   // "pick": "bangkok",
+   // "drop": "krabi"
+   "remark": "ยอดค้าง 4300 , ลงรถที่ แม็คโครบางบอน 089-9994662 ,085-212-6996"
 }

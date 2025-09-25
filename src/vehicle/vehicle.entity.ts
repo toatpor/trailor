@@ -43,7 +43,7 @@ export class VehicleEntity {
   @Column({
     type: 'varchar',
     length: 7,
-    unique: true,
+    // unique: true,
     nullable: false,
   })
   registration: string;

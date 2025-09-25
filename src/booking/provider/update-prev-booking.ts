@@ -23,7 +23,7 @@ export class UpdatePrevBooking {
       throw new BadRequestException('Capacity should not less than 0');
 
     booking.capacity = booking.capacity - 1;
-    booking.deposit = booking.deposit - 500;
+    booking.deposit = booking.deposit - 1000;
 
     try {
       await this.bookingRepository.save(booking);

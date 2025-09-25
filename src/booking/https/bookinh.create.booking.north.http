@@ -4,9 +4,9 @@ Accept: application/json
 {
  
 // วันที่เท่าไร ขี้เกลียดแก้
-"departureDate": "2025-09-10T07:00:00Z",
+"departureDate": "2025-10-01T07:00:00Z",
 // ถึงวันที่เท่าไร
-"arriveDate": "2025-09-30T00:00:00Z",
+"arriveDate": "2025-10-30T00:00:00Z",
 "status": "pending",
 "from" : "central",
 "to" : "north",

@@ -43,7 +43,8 @@ export class CreateBookingDetailProvider {
     }
 
     vehicle = await queryRunner.manager.findOne(VehicleEntity, {
-      where: { registration: clientBookingDto.registration },
+      relations: { owner: true },
+      where: { registration: clientBookingDto.registration, owner: user },
     });
 
     if (!vehicle) {
@@ -74,7 +75,7 @@ export class CreateBookingDetailProvider {
     booking.capacity = booking.capacity + (clientBookingDto.isBig ? 2 : 1);
     booking.deposit = clientBookingDto.transit
       ? booking.deposit
-      : booking.deposit + 500;
+      : booking.deposit + 1000;
 
     await queryRunner.manager.save(booking);
 

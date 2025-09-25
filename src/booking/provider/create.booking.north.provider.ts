@@ -50,6 +50,8 @@ export class CreateBookingNorthProvider {
       createBookingDto.province,
     );
 
+    // console.log(tuesdayAndFriday);
+
     for (const day of tuesdayAndFriday) {
       const booking = this.bookingRepository.create({
         departureDate: addHours(day, 7),
